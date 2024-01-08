@@ -1,0 +1,52 @@
+/* Dark Theme */
+
+/* Body */
+body {
+    background-color: #222; /* Dark background */
+    color: #eee; /* Light text */
+}
+
+/* Navigation */
+nav,
+.nav-links {
+    background-color: #333; /* Darker navigation background */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* Subtle box shadow */
+}
+
+/* Links */
+a {
+    color: #eee; /* Light link color */
+}
+
+a:hover {
+    color: #ccc; /* Light link color on hover */
+}
+
+/* Buttons */
+.btn-color-1,
+.btn-color-2 {
+    border: #fff 0.1rem solid; /* White border for buttons */
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    background: #fff; /* White background on hover */
+    color: #222; /* Dark text color on hover */
+}
+
+/* Contact and Footer */
+.contact-info-upper-container,
+.footer {
+    background: #333; /* Dark background for contact and footer */
+}
+
+/* Project Button */
+.project-btn {
+    color: #fff; /* White text color */
+    background-color: #000; /* Black background color */
+    border-color: #000; /* Black border color */
+}
+
+.project-btn:hover {
+    background-color: #222; /* Darker background color on hover */
+}
